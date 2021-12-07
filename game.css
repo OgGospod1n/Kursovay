@@ -44,6 +44,12 @@ button:focus{
     outline: none;
     background-color: #5ec6eb;
 }
+p{
+    font-size: 0%;
+}
+.wrapper_footer{
+    height: 250px;
+}
 @media (max-width: 650px) {
     .quiz-box {
         width: 450px;
