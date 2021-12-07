@@ -1,0 +1,93 @@
+.infa{
+    display: grid;
+    grid-template-areas: "space planets solar";
+    grid-gap: 2vh;
+    margin-left: 5px;
+    margin-right: 7px;
+    padding-bottom: 70px;;
+  }
+  
+  .ruslo{
+    border-radius: 2vh;
+    display: grid;
+    grid-area: space;
+    transition-duration: 0.5s;
+  
+  }
+  
+  .ruslo:hover{
+    box-shadow: 0 0 1vh black;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  
+  .text_p{
+    padding-left: 1vh;
+    padding-right: 1vh;
+    text-align: justify;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  
+  .h2_main{
+    color: black;
+    text-align: center;
+    height: 93%;
+  }
+
+  .istok{
+    border-radius: 2vh;
+    display: grid;
+    grid-area: planets;
+    transition-duration: 0.5s;
+    padding-bottom: 0.5vh;
+  }
+  
+  .istok:hover{
+    box-shadow: 0 0 1vh black;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  
+  .ystee{
+    border-radius: 2vh;
+    display: grid;
+    grid-area: solar;
+    transition-duration: 0.5s;
+  }
+  .ystee:hover{
+    box-shadow: 0 0 1vh black;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+
+    .infa{
+      display: grid;
+      grid-template-areas: "space" "planets" "solar";
+      grid-column-gap: 0;
+      grid-template-columns: repeat(3, 100%);
+      grid-row-gap: 2vh;
+    }
+  
+    .ruslo{
+      display: grid;
+      grid-area: space;
+  
+    }
+  
+    .istok{
+      display: grid;
+      grid-area: planets;
+    }
+  
+    .ystee{
+      display: grid;
+      grid-area: solar;
+    }
+
+  }
+  

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 2;
+    padding-bottom: 200px;
+  }
+  @media (max-width: 1024px) {
+
+    iframe{
+      width: 731px;
+      height: 350px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    iframe{
+      width: 611px;
+      height: 230px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    iframe{
+      height: 200px;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+  opacity: 60%;
+}
+.stroka{
+    background-color:#341554;
+    color:white;
+    border: 3px solid white;
+    border-right:#341554 ;
+    border-left:#341554 ;
+}
+img{
+    display: inline-block;
+    width:40%;
+    margin-top: 5px;
+    height:64vh;
+    margin-left: 20px;
+    margin-right:10px;
+}
+h1{
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color:black;
+}
+p{
+    text-align: left;
+}
+h2{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color:black;
+    text-align: center;
+ }
+ .txt{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color:black;
+    text-align: center;
+    margin-left: 10px;
+ }
+
